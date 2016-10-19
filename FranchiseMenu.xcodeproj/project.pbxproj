@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A11A3281DAF71EB00338490 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A11A3271DAF71EB00338490 /* AppDelegate.swift */; };
+		8A11A32D1DAF71EB00338490 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A11A32B1DAF71EB00338490 /* Main.storyboard */; };
+		8A11A32F1DAF71EB00338490 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A11A32E1DAF71EB00338490 /* Assets.xcassets */; };
+		8A11A3321DAF71EB00338490 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A11A3301DAF71EB00338490 /* LaunchScreen.storyboard */; };
+		8A11A33A1DAF731800338490 /* FirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A11A3391DAF731800338490 /* FirstView.swift */; };
+		8A5CCBB01DAF847700AF5D7C /* FirstViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CCBAF1DAF847700AF5D7C /* FirstViewCell.swift */; };
+		8A5CCBB51DAF8EDB00AF5D7C /* starbucks.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A5CCBB41DAF8EDB00AF5D7C /* starbucks.png */; };
+		8A5CCBB71DAF902100AF5D7C /* MenuWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5CCBB61DAF902100AF5D7C /* MenuWebView.swift */; };
+		8A68A47E1DB0BAD0002D2260 /* BrandCollectioinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A68A47D1DB0BAD0002D2260 /* BrandCollectioinView.swift */; };
+		8A68A4801DB0BBD6002D2260 /* BrandCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A68A47F1DB0BBD6002D2260 /* BrandCollectionViewCell.swift */; };
+		8A68A4861DB0D7E4002D2260 /* caffebene.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8A68A4851DB0D7E4002D2260 /* caffebene.jpeg */; };
+		8A68A4891DB0D9F1002D2260 /* burgerking.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A68A4871DB0D9F1002D2260 /* burgerking.png */; };
+		8A68A48A1DB0D9F1002D2260 /* mcdonald.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A68A4881DB0D9F1002D2260 /* mcdonald.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A11A3241DAF71EB00338490 /* FranchiseMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FranchiseMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A11A3271DAF71EB00338490 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8A11A32C1DAF71EB00338490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A11A32E1DAF71EB00338490 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A11A3311DAF71EB00338490 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A11A3331DAF71EB00338490 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A11A3391DAF731800338490 /* FirstView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstView.swift; path = ../FirstView.swift; sourceTree = "<group>"; };
+		8A5CCBAF1DAF847700AF5D7C /* FirstViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewCell.swift; sourceTree = "<group>"; };
+		8A5CCBB41DAF8EDB00AF5D7C /* starbucks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = starbucks.png; sourceTree = "<group>"; };
+		8A5CCBB61DAF902100AF5D7C /* MenuWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuWebView.swift; sourceTree = "<group>"; };
+		8A68A47D1DB0BAD0002D2260 /* BrandCollectioinView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandCollectioinView.swift; sourceTree = "<group>"; };
+		8A68A47F1DB0BBD6002D2260 /* BrandCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandCollectionViewCell.swift; sourceTree = "<group>"; };
+		8A68A4851DB0D7E4002D2260 /* caffebene.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = caffebene.jpeg; sourceTree = "<group>"; };
+		8A68A4871DB0D9F1002D2260 /* burgerking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burgerking.png; sourceTree = "<group>"; };
+		8A68A4881DB0D9F1002D2260 /* mcdonald.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mcdonald.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A11A3211DAF71EB00338490 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A11A31B1DAF71EB00338490 = {
+			isa = PBXGroup;
+			children = (
+				8A11A3261DAF71EB00338490 /* FranchiseMenu */,
+				8A11A3251DAF71EB00338490 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A11A3251DAF71EB00338490 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A11A3241DAF71EB00338490 /* FranchiseMenu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A11A3261DAF71EB00338490 /* FranchiseMenu */ = {
+			isa = PBXGroup;
+			children = (
+				8A5CCBB31DAF8EBE00AF5D7C /* Resource */,
+				8A11A3391DAF731800338490 /* FirstView.swift */,
+				8A5CCBAF1DAF847700AF5D7C /* FirstViewCell.swift */,
+				8A68A47D1DB0BAD0002D2260 /* BrandCollectioinView.swift */,
+				8A68A47F1DB0BBD6002D2260 /* BrandCollectionViewCell.swift */,
+				8A5CCBB61DAF902100AF5D7C /* MenuWebView.swift */,
+				8A11A3271DAF71EB00338490 /* AppDelegate.swift */,
+				8A11A32B1DAF71EB00338490 /* Main.storyboard */,
+				8A11A32E1DAF71EB00338490 /* Assets.xcassets */,
+				8A11A3301DAF71EB00338490 /* LaunchScreen.storyboard */,
+				8A11A3331DAF71EB00338490 /* Info.plist */,
+			);
+			path = FranchiseMenu;
+			sourceTree = "<group>";
+		};
+		8A5CCBB31DAF8EBE00AF5D7C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8A68A4871DB0D9F1002D2260 /* burgerking.png */,
+				8A68A4881DB0D9F1002D2260 /* mcdonald.png */,
+				8A68A4851DB0D7E4002D2260 /* caffebene.jpeg */,
+				8A5CCBB41DAF8EDB00AF5D7C /* starbucks.png */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A11A3231DAF71EB00338490 /* FranchiseMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A11A3361DAF71EB00338490 /* Build configuration list for PBXNativeTarget "FranchiseMenu" */;
+			buildPhases = (
+				8A11A3201DAF71EB00338490 /* Sources */,
+				8A11A3211DAF71EB00338490 /* Frameworks */,
+				8A11A3221DAF71EB00338490 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FranchiseMenu;
+			productName = FranchiseMenu;
+			productReference = 8A11A3241DAF71EB00338490 /* FranchiseMenu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A11A31C1DAF71EB00338490 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ImHobeom;
+				TargetAttributes = {
+					8A11A3231DAF71EB00338490 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = SY8F5NW7V4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8A11A31F1DAF71EB00338490 /* Build configuration list for PBXProject "FranchiseMenu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A11A31B1DAF71EB00338490;
+			productRefGroup = 8A11A3251DAF71EB00338490 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A11A3231DAF71EB00338490 /* FranchiseMenu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A11A3221DAF71EB00338490 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A68A48A1DB0D9F1002D2260 /* mcdonald.png in Resources */,
+				8A68A4861DB0D7E4002D2260 /* caffebene.jpeg in Resources */,
+				8A11A3321DAF71EB00338490 /* LaunchScreen.storyboard in Resources */,
+				8A11A32F1DAF71EB00338490 /* Assets.xcassets in Resources */,
+				8A5CCBB51DAF8EDB00AF5D7C /* starbucks.png in Resources */,
+				8A11A32D1DAF71EB00338490 /* Main.storyboard in Resources */,
+				8A68A4891DB0D9F1002D2260 /* burgerking.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A11A3201DAF71EB00338490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A68A4801DB0BBD6002D2260 /* BrandCollectionViewCell.swift in Sources */,
+				8A5CCBB01DAF847700AF5D7C /* FirstViewCell.swift in Sources */,
+				8A11A3281DAF71EB00338490 /* AppDelegate.swift in Sources */,
+				8A11A33A1DAF731800338490 /* FirstView.swift in Sources */,
+				8A5CCBB71DAF902100AF5D7C /* MenuWebView.swift in Sources */,
+				8A68A47E1DB0BAD0002D2260 /* BrandCollectioinView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A11A32B1DAF71EB00338490 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A11A32C1DAF71EB00338490 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A11A3301DAF71EB00338490 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A11A3311DAF71EB00338490 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A11A3341DAF71EB00338490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A11A3351DAF71EB00338490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A11A3371DAF71EB00338490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SY8F5NW7V4;
+				INFOPLIST_FILE = FranchiseMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hota.FranchiseMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8A11A3381DAF71EB00338490 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SY8F5NW7V4;
+				INFOPLIST_FILE = FranchiseMenu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Hota.FranchiseMenu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A11A31F1DAF71EB00338490 /* Build configuration list for PBXProject "FranchiseMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A11A3341DAF71EB00338490 /* Debug */,
+				8A11A3351DAF71EB00338490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A11A3361DAF71EB00338490 /* Build configuration list for PBXNativeTarget "FranchiseMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A11A3371DAF71EB00338490 /* Debug */,
+				8A11A3381DAF71EB00338490 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A11A31C1DAF71EB00338490 /* Project object */;
+}
